@@ -1,0 +1,19 @@
+# Decompressed corpus (kept gz in repo)
+data/pretrain/*.jsonl
+!data/pretrain/*.jsonl.gz
+
+# Training outputs
+output_*/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.python-version
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
